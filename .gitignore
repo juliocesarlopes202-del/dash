@@ -1,0 +1,31 @@
+# Dependências
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Variáveis de ambiente (nunca versionar)
+.env
+.env.local
+.env.*.local
+
+# Produção
+.vercel
+*.tsbuildinfo
+
+# Banco de dados local de desenvolvimento (não versionar)
+.pgdist/
+prisma/*.db
+
+# Logs e sistema
+npm-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
